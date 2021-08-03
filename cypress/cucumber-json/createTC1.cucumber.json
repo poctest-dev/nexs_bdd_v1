@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Default",
+    "name": "create subscription use-case 1",
     "line": 1,
-    "id": "default",
+    "id": "create-subscription-use-case-1",
     "tags": [],
     "uri": "createTC1.feature",
     "elements": [
       {
-        "id": "default;cuc-enroll-a-new-user-subscription-through-nexs",
+        "id": "create-subscription-use-case-1;cuc-enroll-a-new-user-subscription-through-nexs",
         "keyword": "Scenario",
         "line": 5,
         "name": "CUC-Enroll a new user subscription through NexS",
@@ -27,7 +27,7 @@
             "name": "User bought the device and security product at Retail Store e.g. Bestbuy, Staples, Walmart and registers with TechBench services e.g. Geeksquad to onboard his device with security product by providing customer information like email address",
             "result": {
               "status": "passed",
-              "duration": 2962000000
+              "duration": 3327000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "Techbench agent initiates Techbench Application to initiate Security Product by calling McAfee Backend B2B APIs by providing Customer and his purchase information like Customer ID, Product ID, Work Order ID",
             "result": {
               "status": "passed",
-              "duration": 42676000000
+              "duration": 25517000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "McAfee Retail associated subscription should be created for the requested Retail Customer",
             "result": {
               "status": "passed",
-              "duration": 30195000000
+              "duration": 30136000000
             }
           }
         ]

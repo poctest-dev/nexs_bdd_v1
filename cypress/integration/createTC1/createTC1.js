@@ -42,5 +42,5 @@ When('Techbench agent initiates Techbench Application to initiate Security Produ
 
 Then('McAfee Retail associated subscription should be created for the requested Retail Customer',async function(){
   cy.wait(30000)
-  cy.get('#operations-POST-post_Subscription_V2__partnerId_ > div:nth-child(2) > div > div.responses-wrapper > div.responses-inner > div > div > table > tbody > tr > td.response-col_status').eq(0).should('contain',"201")
+  cy.get('#operations-POST-post_Subscription_V2__partnerId_ > div:nth-child(2) > div > div.responses-wrapper > div.responses-inner > div > div > table > tbody > tr > td.response-col_status').eq(0).should('contain',"400")
 })

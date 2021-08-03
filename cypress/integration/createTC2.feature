@@ -1,4 +1,4 @@
-Feature: Default
+Feature: create subscription use-case 2
 
 	
 	@CucPLAT-46
